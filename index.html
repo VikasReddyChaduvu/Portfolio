@@ -785,6 +785,8 @@
             align-items: center;
             gap: 1.5rem;
             padding: 1.5rem;
+            text-decoration: none; /* Cleans up link state */
+            color: inherit;
         }
 
         .contact-method-card i {
@@ -1302,13 +1304,13 @@
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-grid">
                 <div class="contact-details">
-                    <div class="glass-card contact-method-card">
+                    <a href="mailto:vikasreddychaduvu@gmail.com" class="glass-card contact-method-card">
                         <i class="fa-solid fa-envelope"></i>
                         <div>
                             <h4>Email Me</h4>
                             <p>vikasreddychaduvu@gmail.com</p>
                         </div>
-                    </div>
+                    </a>
                     <div class="glass-card contact-method-card">
                         <i class="fa-solid fa-phone"></i>
                         <div>
@@ -1324,7 +1326,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="glass-card">
+                <div>
                     <form class="contact-form" id="portfolio-form">
                         <div class="form-row">
                             <div class="input-group">
@@ -1465,6 +1467,7 @@
                 }
                 timer = setTimeout(loopTyping, 80);
             };
+            var loopTyping;
             loopTyping();
         }
 
@@ -1488,6 +1491,7 @@
                 }
                 timer = setTimeout(loopDeleting, 40);
             };
+            var loopDeleting;
             loopDeleting();
         }
         
