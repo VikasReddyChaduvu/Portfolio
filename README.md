@@ -1,67 +1,27 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Portfolio Website
 
-A modern, responsive, and interactive portfolio website showcasing my skills, projects, education, achievements, and professional journey as a Computer Science graduate and aspiring Software Engineer.
+A modern, responsive personal portfolio website built to showcase my projects, technical skills, achievements, and professional journey.
 
-🔗 Live Portfolio: https://vikasreddychaduvu.github.io/Portfolio/
-
----
-
-## 👨‍💻 About Me
-
-Hi, I'm **Vikas Reddy Chaduvu**.
-
-I am a Computer Science graduate passionate about:
-
-- Artificial Intelligence
-- Machine Learning
-- Software Development
-- Data Science
-- Full-Stack Development
-- Problem Solving
-
-I enjoy building intelligent systems, automation tools, and scalable web applications while continuously learning modern technologies.
+🔗 **Live Demo:** https://vikasreddychaduvu.github.io/Portfolio/
 
 ---
 
 ## 🚀 Features
 
-### ✨ Modern UI/UX
-- Responsive design
-- Glassmorphism effects
-- Animated sections
-- Smooth scrolling navigation
-- Interactive components
-
-### 🌙 Dark/Light Mode
-- Theme switching support
-- User-friendly interface
-- Smooth transitions
-
-### 📱 Fully Responsive
-- Desktop support
-- Tablet support
-- Mobile-friendly design
-
-### 🎯 Portfolio Sections
-- Hero Section
-- About Me
-- Skills
-- Projects
+- Responsive Design
+- Dark/Light Theme Toggle
+- Interactive Animations
+- Smooth Scrolling Navigation
+- Project Showcase Section
+- Skills Visualization
 - Education Timeline
-- Services
-- Achievements
-- Contact Information
-
-### ⚡ Performance Features
-- Scroll animations
-- Typing effect
-- Animated counters
-- Progress indicators
-- Back-to-top button
+- Contact Information Section
+- Mobile-Friendly Layout
+- GitHub Pages Deployment
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 ### Frontend
 - HTML5
@@ -69,9 +29,9 @@ I enjoy building intelligent systems, automation tools, and scalable web applica
 - JavaScript (ES6)
 
 ### UI & Styling
-- CSS Variables
-- Flexbox
 - CSS Grid
+- Flexbox
+- CSS Variables
 - Glassmorphism Design
 - Responsive Design
 
@@ -79,155 +39,39 @@ I enjoy building intelligent systems, automation tools, and scalable web applica
 - Font Awesome
 - Google Fonts
 - Git
+- GitHub
 - GitHub Pages
 
 ---
 
-## 💼 Featured Projects
+## 📂 Project Structure
 
-### 1. Campus Connect
-A full-stack social networking platform designed specifically for educational institutions.
-
-**Tech Stack**
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-
-**Features**
-- User Authentication
-- Profile Management
-- Community Interaction
-- Event Management
-- Group Discussions
-
-Repository:
-https://github.com/VikasReddyChaduvu/KUCampusConnect
+```text
+Portfolio/
+├── index.html
+├── README.md
+├── VikasReddyPhoto.png
+├── .gitattributes
+└── assets/
+```
 
 ---
 
-### 2. Live Exam Scheduling & Room Allocation System
+## ⚙️ Installation
 
-A smart system that automates exam scheduling and room allocation.
-
-**Tech Stack**
-- Node.js
-- Express.js
-- MongoDB
-
-**Features**
-- Automated Scheduling
-- Room Allocation
-- Conflict Detection
-- Resource Optimization
-
----
-
-## 🎓 Education
-
-### Bachelor of Technology (CSE)
-Kakatiya University College of Engineering and Technology, Warangal
-
-- CGPA: 8.0/10
-- Duration: 2022 – 2026
-
-### Intermediate (MPC)
-Sri Gayatri Junior College, Hyderabad
-
-- Percentage: 90.5%
-
-### SSC
-Orbit e-Techno School, Hanamkonda
-
-- GPA: 10/10
-
----
-
-## 🧠 Technical Skills
-
-### Programming Languages
-- Python
-- Java
-- JavaScript
-
-### Web Development
-- HTML
-- CSS
-- JavaScript
-- React.js
-- Node.js
-- Express.js
-
-### Databases
-- MongoDB
-- SQL
-
-### Core Subjects
-- Data Structures & Algorithms
-- OOPs
-- DBMS
-- Operating Systems
-- Computer Networks
-
-### Tools
-- Git
-- GitHub
-- VS Code
-- Linux
-
-### AI & ML
-- Machine Learning Fundamentals
-- NLP
-- Generative AI
-- Data Analysis
-
----
-
-## 🏆 Achievements
-
-- Strong Academic Performance with 8.0 CGPA
-- AI/ML Project Development
-- Problem Solving Enthusiast
-- Software Development Projects
-- Full-Stack Application Development
-
----
-
-## 📬 Contact
-
-📧 Email:
-vikasreddychaduvu@gmail.com
-
-💼 LinkedIn:
-https://www.linkedin.com/in/vikas-reddy-ch/
-
-💻 GitHub:
-https://github.com/VikasReddyChaduvu
-
-🧩 LeetCode:
-https://leetcode.com/u/vikasreddy10/
-
----
-
-## 📷 Portfolio Preview
-
-![Portfolio Preview](VikasReddyPhoto.png)
-
----
-
-## ⚙️ Setup & Installation
-
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/VikasReddyChaduvu/Portfolio.git
 ```
 
-Navigate to the project:
+### Navigate to Project Directory
 
 ```bash
 cd Portfolio
 ```
+
+### Run the Project
 
 Open:
 
@@ -235,14 +79,101 @@ Open:
 index.html
 ```
 
-or use Live Server in VS Code.
+Or use VS Code Live Server:
+
+```bash
+Right Click → Open with Live Server
+```
+
+---
+
+## 🌍 Deployment
+
+This website is deployed using **GitHub Pages**.
+
+To deploy your own version:
+
+1. Fork this repository
+2. Go to **Settings**
+3. Select **Pages**
+4. Choose:
+   - Branch: `main`
+   - Folder: `/root`
+5. Save
+
+GitHub will generate a deployment URL.
+
+---
+
+## 📸 Preview
+
+Add screenshots of your portfolio here.
+
+```md
+![Home Page](screenshots/home.png)
+
+![Projects Section](screenshots/projects.png)
+
+![Contact Section](screenshots/contact.png)
+```
+
+---
+
+## 🎯 Purpose
+
+This project serves as:
+
+- Personal Portfolio Website
+- Project Showcase Platform
+- Professional Online Presence
+- Technical Skills Demonstration
+- GitHub Pages Deployment Example
+
+---
+
+## 🔧 Customization
+
+You can easily customize:
+
+- Profile Information
+- Skills
+- Projects
+- Social Links
+- Theme Colors
+- Animations
+- Contact Information
+
+by editing the `index.html` file.
+
+---
+
+## 📈 Future Improvements
+
+- Blog Section
+- Project Filtering
+- Contact Form Backend
+- Resume Analytics
+- Visitor Counter
+- Project Detail Pages
+- Multilingual Support
+
+---
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub.
+⭐ If you found this project useful, consider giving it a star.
