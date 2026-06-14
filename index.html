@@ -442,17 +442,16 @@
 
         /* ABOUT SECTION */
         .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
         }
 
-        .about-info p {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: var(--text-muted);
-            margin-bottom: 2rem;
+        .interest-tags{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:1rem;
         }
 
         .interest-tags {
@@ -1074,24 +1073,6 @@
                         <span class="tag">Software Development</span>
                     </div>
                 </div>
-                <div class="about-stats">
-                    <div class="glass-card stat-card">
-                        <div class="stat-number" data-target="8.0">0</div>
-                        <div class="stat-label">Current CGPA</div>
-                    </div>
-                    <div class="glass-card stat-card">
-                        <div class="stat-number" data-target="2">0</div>
-                        <div class="stat-label">Major Projects</div>
-                    </div>
-                    <div class="glass-card stat-card">
-                        <div class="stat-number" data-target="100">0</div>
-                        <div class="stat-label">AI/ML Focus %</div>
-                    </div>
-                    <div class="glass-card stat-card">
-                        <div class="stat-number" data-target="500">0</div>
-                        <div class="stat-label">Problems Solved</div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -1162,6 +1143,27 @@
             <div class="projects-grid">
                 <div class="glass-card project-card">
                     <div class="project-header">
+                        <i class="fa-solid fa-users"></i>
+                        <h3 class="project-title">Campus Connect</h3>
+                    </div>
+                
+                    <ul class="project-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Full-stack MERN social networking platform</li>
+                        <li><i class="fa-solid fa-circle-check"></i> JWT Authentication and Role-Based Access</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Posts, Groups, and Event Management</li>
+                        <li><i class="fa-solid fa-circle-check"></i> User Profile Management</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Responsive Modern UI</li>
+                    </ul>
+                
+                    <div class="project-tech">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Express</span>
+                        <span class="tech-badge">MongoDB</span>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <div class="project-header">
                         <i class="fa-solid fa-microchip"></i>
                         <h3 class="project-title">Intelligent Research Paper Summarization System</h3>
                     </div>
@@ -1195,6 +1197,27 @@
                         <span class="tech-badge">Node.js</span>
                         <span class="tech-badge">Express.js</span>
                         <span class="tech-badge">MongoDB</span>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h3 class="project-title">Finding Donors for CharityML</h3>
+                    </div>
+                
+                    <ul class="project-features">
+                        <li><i class="fa-solid fa-circle-check"></i> Machine Learning classification model</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Census data analysis and preprocessing</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Donor prediction using supervised learning</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Model evaluation and optimization</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Data visualization and insights</li>
+                    </ul>
+                
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Scikit-Learn</span>
+                        <span class="tech-badge">Pandas</span>
+                        <span class="tech-badge">NumPy</span>
                     </div>
                 </div>
             </div>
